@@ -18,7 +18,9 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.musicplayer.app",
       "infoPlist": {
-        "UIBackgroundModes": ["audio"]
+        "UIBackgroundModes": [
+          "audio"
+        ]
       }
     },
     "android": {
@@ -26,10 +28,11 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#121212"
       },
-      "package": "com.musicplayer.app",
+      "package": "com.shudhansu_04.musicplayer",
       "permissions": [
         "FOREGROUND_SERVICE",
-        "WAKE_LOCK"
+        "WAKE_LOCK",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
       ]
     },
     "web": {
@@ -41,7 +44,13 @@
         {
           "microphonePermission": false
         }
-      ]
-    ]
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a661d1cd-e0fd-401e-83d8-8fafb6c571d3"
+      }
+    }
   }
 }

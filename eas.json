@@ -1,0 +1,10 @@
+{
+  "cli": { "version": ">= 6.0.0" },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  }
+}

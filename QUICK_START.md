@@ -1,14 +1,14 @@
 # Quick Start Guide - Verify All Requirements
 
-##  Fast Setup (5 minutes)
+##  Fast Setup 
 
-### Step 1: Install Dependencies (1 minute)
+### Step 1: Install Dependencies 
 ```bash
 cd Music_player
 npm install
 ```
 
-### Step 2: Create Assets Folder (30 seconds)
+### Step 2: Create Assets Folder 
 ```bash
 mkdir assets
 # Add any placeholder PNG images:
@@ -20,7 +20,7 @@ mkdir assets
 
 **Quick Option:** Use any existing PNG files as placeholders, or download free icons.
 
-### Step 3: Start App (30 seconds)
+### Step 3: Start App 
 ```bash
 npm start
 ```
@@ -38,7 +38,7 @@ npm start
   - Start Android Studio emulator first
   - Press `a` in terminal
 
-##  Quick Verification Checklist (5 minutes)
+##  Quick Verification Checklist 
 
 ### Core Requirements Verification
 
@@ -47,7 +47,7 @@ npm start
 - Sections have song/artist items with images
 - "See all" buttons navigate correctly
 
-**Time: 30 seconds**
+
 
 #### 2. Search Screen 
 - Tap "Search" tab → Search bar appears
@@ -55,7 +55,7 @@ npm start
 - Scroll down → More results load (pagination)
 - Tap filter tabs (Songs, Artists, Albums) → Filters work
 
-**Time: 1 minute**
+
 
 #### 3. Full Player 
 - Tap any song → Full player opens
@@ -66,7 +66,7 @@ npm start
 - Test: Shuffle button toggles
 - Test: Repeat button cycles (None → All → One)
 
-**Time: 1 minute**
+
 
 #### 4. Mini Player 
 - After playing a song, mini player appears at bottom
@@ -75,7 +75,6 @@ npm start
 - Tap mini player → Opens full player
 - Play/Pause button works
 
-**Time: 30 seconds**
 
 #### 5. Queue Management 
 - Tap "Queue" tab → Queue screen appears
@@ -85,24 +84,23 @@ npm start
 - Test: Use up/down arrows → Songs reorder
 - Test: Close app → Reopen → Queue persists
 
-**Time: 1 minute**
 
-#### 6. State Synchronization  (CRITICAL)
+#### 6. State Synchronization  
 - Play a song → Mini player shows it
 - Open full player → Shows same song
 - Seek in full player → Mini player progress updates
 - Navigate away from player → Mini player still shows correct song
 - Both players show same position/time
 
-**Time: 1 minute**
 
-#### 7. Background Playback  (CRITICAL)
+
+#### 7. Background Playback 
 - Play a song
 - Press home button (minimize app) → Music continues
 - Lock screen → Music continues playing
 - Switch to other apps → Music continues
 
-**Time: 30 seconds**
+
 
 ### Bonus Features 
 
@@ -111,7 +109,6 @@ npm start
 - **Artist Detail:** Tap artist → See profile, songs, albums
 - **Recent Searches:** Search items → Close app → Reopen → Searches persist
 
-**Time: 1 minute**
 
 ##  Requirements Satisfaction Summary
 
@@ -215,5 +212,3 @@ Your app satisfies all requirements if:
  State syncs between mini and full players
  No console errors
  Smooth navigation and UI interactions
-
-**Total Testing Time: ~5-6 minutes**
