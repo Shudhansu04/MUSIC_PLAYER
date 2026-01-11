@@ -2,6 +2,10 @@
 
 A modern music streaming application built with React Native (Expo) and TypeScript, using the JioSaavn API for music content. Features a beautiful UI with light/dark theme support, comprehensive playlist management, and a seamless listening experience.
 
+## Download 
+
+- **APK (Android)**: [Download here](https://expo.dev/artifacts/eas/fnixXHNKwZt9rNQQpRw3eB.apk)
+
 ## Features
 
 ### Core Features (Required)
